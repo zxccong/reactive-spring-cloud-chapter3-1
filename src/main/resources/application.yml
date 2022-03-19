@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true # 启用所有端口
+info:
+  company.name: www.mark.com
+  build.artifactId: @project.artifactId@
+  build.version: @project.version@
+  source: @java.version@
